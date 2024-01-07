@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/headliner-2023/",
+    "build": "vite build --base=/apartment-renovation-new-jersey/",
     "preview": "vite preview"
   },
   "devDependencies": {
