@@ -24,9 +24,11 @@ screen and (min-device-pixel-retio: 2) and (min-width: 375px) {
     align-items: center;
     gap: 40px;
 }
-
+.order-color-span {
+    color: #178080;
+}
 .order-title {
-    color: var(--white, #fcf9f9);
+    color: #040311;
     font-size: 32px;
     font-weight: 500;
     line-height: 1.375;
@@ -44,14 +46,14 @@ screen and (min-device-pixel-retio: 2) and (min-width: 375px) {
 .order-form-field {
     padding: 14px 16px;
     width: 335px;
-    color: rgba(252, 249, 249, 0.5);
+    color: #1f245a;
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.02em;
     border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.1);
-    background-color: #1c2225;
+    border: 1px solid rgb(44, 52, 208);
+    background-color: transparent;
     margin-bottom: 20px;
     transition: border 250ms linear, color 250ms linear;
 }
@@ -60,14 +62,14 @@ screen and (min-device-pixel-retio: 2) and (min-width: 375px) {
     width: 335px;
     height: 196px;
     padding: 14px 16px;
-    color: rgba(252, 249, 249, 0.5);
+    color: rgb(12, 11, 20);
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.02em;
     border-radius: 8px;
-    border: 1px solid rgba(252, 249, 249, 0.1);
-    background-color: #1c2225;
+    border: 1px solid rgb(44, 52, 208);
+    background-color: transparent;
     resize: none;
     margin-bottom: 40px;
 }
@@ -84,26 +86,30 @@ screen and (min-device-pixel-retio: 2) and (min-width: 375px) {
     line-height: normal;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    background-color: #1c2225;
+    background-color: rgb(44, 52, 208);
     border-radius: 15px;
-    border: 1px solid rgba(252, 249, 249, 0.1);
+    border: 1px solid rgb(25, 12, 87);
     transition: border 250ms linear;
 }
 
 .order-form-field:hover,
 .order-form-field:focus {
-    color: #fcf9f9;
+    color: #000000;
+}
+
+
+.order-form-field:hover,
+.order-form-field:focus {
+    border: 1px solid #1a1acf;
 }
 
 .order-form-field:hover,
 .order-form-field:focus {
-    border: 1px solid #fcf9f9;
+    background-color: #d0e1ea;
 }
-
-.order-form-field:hover,
-.order-form-field:focus {
-    background-color: #1c2225;
-}
+.order-form-comments:hover, .order-form-comments:focus {
+        background-color: #d0e1ea;
+    }
 
 .order-form-btn:hover,
 .order-form-btn:focus {
