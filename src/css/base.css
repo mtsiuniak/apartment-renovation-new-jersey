@@ -1,8 +1,10 @@
-
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Manrope', sans-serif;
-    color: #FCF9F9;;
-    background-color: #1C2225;
+    color: #191400;;
+    background-color: #f4f8fa;
     margin: 0 auto;
 
 }

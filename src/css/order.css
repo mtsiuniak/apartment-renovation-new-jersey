@@ -25,7 +25,7 @@
 }
 
 .order-title {
-  color: var(--white, #fcf9f9);
+  color: #4b74d4;
   font-size: 32px;
   font-weight: 500;
   line-height: 1.375;
@@ -43,14 +43,14 @@
 .order-form-field {
   padding: 14px 16px;
   width: 335px;
-  color: rgba(252, 249, 249, 0.5);
+  color: rgba(49, 61, 189, 0.5);
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.02em;
   border-radius: 15px;
-  border: 1px solid rgba(252, 249, 249, 0.1);
-  background-color: #1c2225;
+  border: 1px solid rgba(40, 36, 223, 0.74);
+  background-color: transparent;
   margin-bottom: 20px;
   transition: border 250ms linear, color 250ms linear;
 }
@@ -59,14 +59,14 @@
   width: 335px;
   height: 196px;
   padding: 14px 16px;
-  color: rgba(252, 249, 249, 0.5);
+  color: rgba(49, 61, 189, 0.5);
   font-size: 14px;
   font-weight: 400;
   line-height: normal;
   letter-spacing: -0.02em;
   border-radius: 8px;
-  border: 1px solid rgba(252, 249, 249, 0.1);
-  background-color: #1c2225;
+  border: 1px solid rgba(35, 43, 161, 0.699);
+  background-color: transparent;
   resize: none;
   margin-bottom: 40px;
 }
@@ -77,13 +77,13 @@
   width: 145px;
   height: 49px;
   padding: 14px 36px;
-  color: var(--white, #fcf9f9);
+  color: var(--white, #ffffff);
   font-size: 14px;
   font-weight: 600;
   line-height: normal;
   letter-spacing: -0.04em;
   text-transform: uppercase;
-  background-color: #1c2225;
+  background-color: #1414ac;
   border-radius: 15px;
   border: 1px solid rgba(252, 249, 249, 0.1);
   transition: border 250ms linear;
@@ -91,7 +91,7 @@
 
 .order-form-field:hover,
 .order-form-field:focus {
-  color: #fcf9f9;
+  color: #fff9f9;
 }
 
 .order-form-field:hover,
@@ -101,7 +101,7 @@
 
 .order-form-field:hover,
 .order-form-field:focus {
-  background-color: #1c2225;
+  background-color: #f5f8f9;
 }
 
 .order-form-btn:hover,

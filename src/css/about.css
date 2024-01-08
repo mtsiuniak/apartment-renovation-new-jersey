@@ -13,7 +13,7 @@
 }
 .title-abaut-us {
 
-    color: #FCF9F9;
+    color: #000000;
     margin-bottom: 40px;
     font-size: 32px;
     font-weight: 500;
@@ -22,7 +22,7 @@
 }
 
 .text-about-us {
-    color: rgba(252, 249, 249, 0.352);
+    color: rgba(0, 0, 0, 0.352);
     margin-bottom: 20px;
     font-size: 14px;
     font-weight: 400;
