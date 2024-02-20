@@ -84,6 +84,7 @@ html {
       background-size: cover;
     }
   .main-title {
+    margin-left: 160px;
     margin-top: 0;
     font-size: 80px;
     font-weight: 500;
@@ -91,8 +92,6 @@ html {
 
   .hero-container {
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
   }
 
   .order-service-button {
