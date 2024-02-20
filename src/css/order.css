@@ -1,7 +1,7 @@
 /* SECTION YOUR ORDERS MOBILE STYLES */
 
 .order-section {
-    background-image: url(../img/mobile/mobile-background-foto.jpg);
+    background-image: url(../img/gallery-pictures/IMG_3875.jpg);
     background-size: 375px 550px;
     background-repeat: no-repeat;
     background-position: top;
@@ -9,11 +9,9 @@
     padding-bottom: 40px;
 }
 
-@media screen and (min-resolution: 192dpi) and (min-width: 375px),
-screen and (min-resolution: 2dppx) and (min-width: 375px),
-screen and (min-device-pixel-retio: 2) and (min-width: 375px) {
+@media screen {
     .order-section {
-        background-image: url(../img/mobile/mobile-background-foto@2x.jpg);
+        background-image: url(../img/gallery-pictures/IMG_3612.jpg);
     }
 }
 

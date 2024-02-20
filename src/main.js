@@ -1,3 +1,4 @@
+
 const buttonopen = document.querySelector('.mobile-open-btn'); 
 const menu = document.querySelector('.mobile-menu'); 
 const buttonclose = document.querySelector('.button-close');
@@ -56,4 +57,19 @@ function blurring() {
 const scale = (num, in_min, in_max, out_min, out_max) => {
   return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
 }
+
+// ------ scrol on hero section to order ----
+
+const smoothLinks = document.querySelectorAll('a[href^="#"]');
+for (let smoothLink of smoothLinks) {
+    smoothLink.addEventListener('click', function (e) {
+        e.preventDefault();
+        const id = smoothLink.getAttribute('href');
+
+        document.querySelector(id).scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+        });
+    });
+};
 

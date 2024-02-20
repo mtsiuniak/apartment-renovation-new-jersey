@@ -19,14 +19,14 @@ overflow: hidden;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    height: 60vh;
+    height: 600px;
     border-radius: 50px;
     color: #fff;
     cursor: pointer;
     flex: 0.5;
     margin: 10px;
     position: relative;
-    transition: all 700ms ease-in;
+    transition: all 900ms ease-in;
 }
 
 .panel h3 {
@@ -39,7 +39,7 @@ overflow: hidden;
 }
 
 .panel:hover {
-    flex: 5;
+    flex: 3;
 }
 
 .panel.active h3 {

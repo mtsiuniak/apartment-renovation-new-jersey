@@ -1,13 +1,17 @@
 * {
     box-sizing: border-box;
 }
+html {
+    scroll-behavior: smooth;
+}
 body {
-    font-family: 'Manrope', sans-serif;
+    font-family: "Bree Serif", serif;
     color: #191400;;
-    background-color: #f4f8fa;
+    background-color: #050217;
     margin: 0 auto;
 
 }
+
 
 .accent-color {
     color: #ECD979;
