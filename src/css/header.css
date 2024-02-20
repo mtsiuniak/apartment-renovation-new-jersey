@@ -1,13 +1,16 @@
 .header-page {
+    position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        background-color: #050217;
     padding-top: 20px;
     padding-bottom: 24px;
 }
 
-.logo {
-    background-color: transparent;
-}
-
 .header-container {
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,6 +34,7 @@
 
 
 .navigation-link {
+    color: #f3ecdd;
     font-size: 14px;
     font-weight: 400;
     line-height: 1.29;
@@ -41,7 +45,7 @@
 
 .navigation-link:hover,
 .navigation-link:focus {
-    color: #4a5dbb;
+    color: #7d7432;
 }
 
 
@@ -49,19 +53,21 @@
     display: block;
     padding: 14px 28px;
     border-radius: 15px;
-    border: 2px solid #7a84f3;
+    border: 2px solid #f3ecdd;
+    color: #f3ecdd;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 1.43;
     letter-spacing: 0.02em;
     text-transform: uppercase;
-    transition: border-color 350ms ease-in;
+    transition: border-color 400ms ease-in;
 }
 
 .contact-information:hover,
 .contact-information:focus {
-    border-color: #0f1663;
+    color: #7d7432;
+    border-color: #7d7432;
     scale: 1.02;
 }
 
@@ -79,15 +85,24 @@
     align-items: center;
     padding: 8px;
     border-radius: 15px;
-    border: 1px solid #f8f8f8;
-    background: #4D5AE5;
+    border: 1px solid #f3ecdd;
+    background: #252104;
     transition: border 250ms linear;
 }
 
 .header-link:focus,
 .header-link:hover {
-    border-color: #272e7a;
-    scale: 1.05;
+    border-color: #7d7432;
+    scale: 1.02;
+}
+.icon-paint {
+    fill: #f3ecdd;
+    transition: scale 300ms linear, fill 300ms linear;
+}
+
+.icon-paint:hover, .icon-paint:focus {
+    scale: 1.02;
+    fill: #7d7432;
 }
 
 
@@ -129,7 +144,8 @@
 @media screen and (min-width: 1280px) {
 
     .header-page {
-        padding-bottom: 4px;
+        position: relative;
+        padding-bottom: 12px;
         }
 
     .mobile-open-btn {
@@ -137,7 +153,11 @@
     }
 
     .address-info {
-        display: block;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 12px;
     }
 
     .navigation-menu {
