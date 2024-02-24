@@ -1,19 +1,15 @@
 /* SECTION YOUR ORDERS MOBILE STYLES */
 
-.order-section {
+/* .order-section {
     background-image: url(../img/gallery-pictures/IMG_3612.jpg);
     background-size: 375px 550px;
     background-repeat: no-repeat;
     background-position: top;
     padding-top: 630px;
     padding-bottom: 40px;
-}
+} */
 
-@media screen {
-    .order-section {
-        background-image: url(../img/gallery-pictures/IMG_3612.jpg);
-    }
-}
+
 
 .order-form-box {
     display: flex;
@@ -190,11 +186,11 @@
         margin-left: 70px;
     }
 
-    .section-background {
+    /* .section-background {
         background-image: url(../img/gallery-pictures/IMG_3612.jpg);
         background-size: 323px 484px;
         background-position: left bottom;
-    }
+    } */
 }
 
 /* SECTION YOUR ORDERS TABLET STYLES */
@@ -207,14 +203,14 @@
         padding-bottom: 0px;
     }
 
-    .order-background-girl {
+    /* .order-background-girl {
         background-image: url(../img/gallery-pictures/IMG_3612.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         margin: 0 auto;
         max-width: 1282px;
-    }
+    } */
 
     .order-section-wrapper {
         display: flex;
@@ -245,11 +241,11 @@
         margin-bottom: 0px;
     }
 
-    .section-background {
+    /* .section-background {
         background-image: url(../img/gallery-pictures/IMG_3612.jpg);
         background-size: 289px 484px;
         background-position: left bottom;
-    }
+    } */
 
 }
 
@@ -273,14 +269,14 @@
         width: 666px;
     }
 
-    .order-background-girl {
+    /* .order-background-girl {
         background-image: url(../img/gallery-pictures/IMG_3612.jpg);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         margin: 0 auto;
         max-width: 1440px;
-    }
+    } */
 }
 
 /* SECTION YOUR ORDERS DESKTOP-1440 STYLES */
