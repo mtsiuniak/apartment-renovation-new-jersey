@@ -6,7 +6,7 @@
   height: 100%;
 
   background-color: #ecd979;
-  background-image: url('../img/mobile/mobile-menu-background.png');
+  /* background-image: url('../img/mobile/mobile-menu-background.png'); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position: bottom;
@@ -25,9 +25,9 @@
 @media screen and (min-resolution: 192dpi),
   screen and (min-resolution: 2dppx),
   screen and (min-device-pixel-ratio: 2) {
-  .mobile-menu {
+  /* .mobile-menu {
     background-image: url('../img/mobile/mobile-menu-background@2x.png');
-  }
+  } */
 }
 
 .button-close {
@@ -92,15 +92,15 @@
   .mobile-menu {
     width: 380px;
     padding: 20px 32px 364px;
-    background-image: url('../img/tablet/tablet-menu-background.png');
+    /* background-image: url('../img/tablet/tablet-menu-background.png'); */
   }
 
   @media screen and (min-resolution: 192dpi),
     screen and (min-resolution: 2dppx),
     screen and (min-device-pixel-ratio: 2) {
-    .mobile-menu {
+    /* .mobile-menu {
       background-image: url('../img/tablet/tablet-menu-background@2x.png');
-    }
+    } */
   }
 
   .button-close {
