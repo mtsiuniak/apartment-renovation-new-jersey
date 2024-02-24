@@ -23,10 +23,10 @@
     gap: 40px;
 }
 .order-color-span {
-    color: #178080;
+    color: #7d7432;
 }
 .order-title {
-    color: #040311;
+    color: #e0d068;
     font-size: 32px;
     font-weight: 500;
     line-height: 1.375;
@@ -44,13 +44,13 @@
 .order-form-field {
     padding: 14px 16px;
     width: 335px;
-    color: #1f245a;
+    color: #7d7432;
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.02em;
     border-radius: 15px;
-    border: 1px solid rgb(44, 52, 208);
+    border: 1px solid #7d7432;
     background-color: transparent;
     margin-bottom: 20px;
     transition: border 250ms linear, color 250ms linear;
@@ -60,13 +60,13 @@
     width: 335px;
     height: 196px;
     padding: 14px 16px;
-    color: rgb(12, 11, 20);
+    color: #f8f8f8;
     font-size: 14px;
     font-weight: 400;
     line-height: normal;
     letter-spacing: -0.02em;
     border-radius: 8px;
-    border: 1px solid rgb(44, 52, 208);
+    border: 1px solid #807313;
     background-color: transparent;
     resize: none;
     margin-bottom: 40px;
@@ -84,29 +84,29 @@
     line-height: normal;
     letter-spacing: -0.04em;
     text-transform: uppercase;
-    background-color: rgb(44, 52, 208);
+    background-color: #7d7432;
     border-radius: 15px;
-    border: 1px solid rgb(25, 12, 87);
+    border: 1px solid #8b7c0f;
     transition: border 250ms linear;
 }
 
 .order-form-field:hover,
 .order-form-field:focus {
-    color: #000000;
+    color: #f8f8f8;
 }
 
 
 .order-form-field:hover,
 .order-form-field:focus {
-    border: 1px solid #1a1acf;
+    border: 1px solid #8e7f10;
 }
 
 .order-form-field:hover,
 .order-form-field:focus {
-    background-color: #d0e1ea;
+    background-color: #0c0523;
 }
 .order-form-comments:hover, .order-form-comments:focus {
-        background-color: #d0e1ea;
+        background-color: #0c0523;
     }
 
 .order-form-btn:hover,

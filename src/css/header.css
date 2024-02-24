@@ -1,16 +1,15 @@
 .header-page {
     position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-        background-color: #050217;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    background-color: #050217;
     padding-top: 20px;
     padding-bottom: 24px;
 }
 
 .header-container {
-    
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -30,8 +29,6 @@
     justify-content: space-between;
     gap: 12px;
 }
-
-
 
 .navigation-link {
     color: #f3ecdd;
