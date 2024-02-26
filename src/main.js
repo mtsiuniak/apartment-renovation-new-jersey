@@ -1,3 +1,4 @@
+import { gallery } from "./js/gallery";
 
 const buttonopen = document.querySelector('.mobile-open-btn'); 
 const menu = document.querySelector('.mobile-menu'); 
