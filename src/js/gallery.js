@@ -4,22 +4,22 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 const images = [
   {
     original:
-      'img/gallery-pictures/IMG_3542.jpg',
+      "../img/gallery-pictures/IMG_3542.jpg",
     description: 'Hokkaido Flower',
   },
   {
     original:
-     'img/gallery-pictures/IMG_3543.jpg',
+     "./img/gallery-pictures/IMG_3543.jpg",
     description: 'Container Haulage Freight',
   },
   {
     original:
-      'img/gallery-pictures/IMG_3544.jpg',
+      "/src/img/gallery-pictures/IMG_3544.jpg",
     description: 'Aerial Beach View',
   },
   {
     original:
-      'img/gallery-pictures/IMG_3545.jpg',
+      "../img/gallery-pictures/IMG_3545.jpg",
     description: 'Flower Blooms',
   },
   {

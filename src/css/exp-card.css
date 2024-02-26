@@ -34,6 +34,11 @@ margin-left: 40px;
     position: relative;
     transition: all 900ms ease-in;
 }
+@media screen and (max-width: 400px) {
+    .panel {
+        flex: 0.3;
+    }
+}
 
 .panel h3 {
     font-size: 24px;
