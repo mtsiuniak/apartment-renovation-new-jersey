@@ -1,16 +1,5 @@
 /* SECTION YOUR ORDERS MOBILE STYLES */
 
-/* .order-section {
-    background-image: url(../img/gallery-pictures/IMG_3612.jpg);
-    background-size: 375px 550px;
-    background-repeat: no-repeat;
-    background-position: top;
-    padding-top: 630px;
-    padding-bottom: 40px;
-} */
-
-
-
 .order-form-box {
     display: flex;
     flex-direction: column;
