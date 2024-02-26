@@ -1,12 +1,12 @@
-import"./assets/modulepreload-polyfill-3cfb730f.js";import{C as n}from"./assets/vendor-fab6ff31.js";const i="/apartment-renovation-new-jersey/assets/IMG_3542-3179e25a.jpg",r=[{original:i,description:"Hokkaido Flower"},{original:i,description:"Container Haulage Freight"},{original:i,description:"Aerial Beach View"},{original:i,description:"Flower Blooms"},{original:i,description:"Alpine Mountains"},{original:i,description:"Mountain Lake Sailing"},{original:i,description:"Alpine Spring Meadows"},{original:i,description:"Nature Landscape"},{original:i,description:"Lighthouse Coast Sea"},{original:i,description:"Lighthouse Coast Sea"},{original:i,description:"Lighthouse Coast Sea"},{original:i,description:"Lighthouse Coast Sea"}],t=document.querySelector(".gallery"),l=r.map(({original:a,description:e})=>`
+import"./assets/modulepreload-polyfill-3cfb730f.js";import{C as t}from"./assets/vendor-1e6f2856.js";const i="/apartment-renovation-new-jersey/assets/IMG_3542-3179e25a.jpg",s="/apartment-renovation-new-jersey/assets/IMG_3543-030f8f67.jpg",o="/apartment-renovation-new-jersey/assets/IMG_3544-ef55b624.jpg",r="/apartment-renovation-new-jersey/assets/IMG_3545-50475299.jpg",g="/apartment-renovation-new-jersey/assets/IMG_3546-1f42defa.jpg",c="/apartment-renovation-new-jersey/assets/IMG_3547-47ff4e04.jpg",p="/apartment-renovation-new-jersey/assets/IMG_3548-e0db446d.jpg",l="/apartment-renovation-new-jersey/assets/IMG_3549-7a70edfe.jpg",m="/apartment-renovation-new-jersey/assets/IMG_3550-3cb682f2.jpg",d="/apartment-renovation-new-jersey/assets/IMG_3551-5443b2c3.jpg",j="/apartment-renovation-new-jersey/assets/IMG_3552-8dc43dbc.jpg",y="/apartment-renovation-new-jersey/assets/IMG_3553-a48d4f17.jpg",f="/apartment-renovation-new-jersey/assets/IMG_3554-17c9ab4f.jpg",h="/apartment-renovation-new-jersey/assets/IMG_3555-8fe1b69d.jpg",M="/apartment-renovation-new-jersey/assets/IMG_3556-a8496d58.jpg",u="/apartment-renovation-new-jersey/assets/IMG_3557-bc802224.jpg",w=[{original:i,description:"Hokkaido Flower"},{original:s,description:"Container Haulage Freight"},{original:o,description:"Aerial Beach View"},{original:r,description:"Flower Blooms"},{original:g,description:"Alpine Mountains"},{original:c,description:"Mountain Lake Sailing"},{original:p,description:"Alpine Spring Meadows"},{original:l,description:"Nature Landscape"},{original:m,description:"Lighthouse Coast Sea"},{original:d,description:"Lighthouse Coast Sea"},{original:j,description:"Lighthouse Coast Sea"},{original:y,description:"Lighthouse Coast Sea"},{original:f,description:"Lighthouse Coast Sea"},{original:h,description:"Lighthouse Coast Sea"},{original:M,description:"Lighthouse Coast Sea"},{original:u,description:"Lighthouse Coast Sea"}],I=document.querySelector(".gallery"),v=w.map(({original:e,description:a})=>`
     <li class="gallery-item">
-	<a class="gallery-link" data-fancybox="gallery" href=${a}>
+	<a class="gallery-link" data-fancybox="gallery" href=${e}>
 		<img 
 			class="gallery-image" 
-			src=${a} 
-			alt=${e}
+			src=${e} 
+			alt=${a}
 			/>
 	</a>
     </li>
-  `).join("");t.innerHTML=l;n.bind("[data-fancybox]",{loop:!0,animationEffect:"fade",hideScrollbar:!1,Carousel:{transition:"slide"},caption:function(a,e){var o;return((o=e.thumbEl)==null?void 0:o.alt)||""}});
+  `).join("");I.innerHTML=v;t.bind("[data-fancybox]",{loop:!0,animationEffect:"fade",hideScrollbar:!1,Carousel:{transition:"slide"},caption:function(e,a){var n;return((n=a.thumbEl)==null?void 0:n.alt)||""}});
 //# sourceMappingURL=commonHelpers.js.map
