@@ -4,14 +4,6 @@
   border-top: 1px solid rgba(252, 249, 249, 0.1);
 }
 
-.footer-photo {
-  background-image: url('../img/mobile/mobile-footer-background.png');
-  background-position: bottom center;
-  background-repeat: no-repeat;
-  background-size: contain;
-  max-width: 452px;
-  margin: 0 auto;
-}
 
 @media screen and (min-resolution: 192dpi) and (max-width: 767px),
   screen and (min-resolution: 2dppx) and (max-width: 767px),

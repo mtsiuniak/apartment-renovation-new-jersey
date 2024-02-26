@@ -64,23 +64,23 @@ const images = [
   },
 ];
 
-const galleryContainer = document.querySelector('.gallery');
+// const galleryContainer = document.querySelector('.gallery');
 
-const galleryItemsHTML = images.map(({ original, description }) => {
-  return `
-    <li class="gallery-item">
-	<a class="gallery-link" href=${original}>
-		<img 
-			class="gallery-image" 
-			src=${original} 
-			alt=${description}
-			/>
-	</a>
-    </li>
-  `;
-}).join('');
+// const galleryItemsHTML = images.map(({ original, description }) => {
+//   return `
+//     <li class="gallery-item">
+// 	<a class="gallery-link" href=${original}>
+// 		<img 
+// 			class="gallery-image" 
+// 			src=${original} 
+// 			alt=${description}
+// 			/>
+// 	</a>
+//     </li>
+//   `;
+// }).join('');
 
-galleryContainer.innerHTML = galleryItemsHTML;
+// galleryContainer.innerHTML = galleryItemsHTML;
 
 let gallery = new SimpleLightbox('.gallery a', {
   captionsData: 'alt',
