@@ -24,12 +24,12 @@ const images = [
   },
   {
     original:
-     "./img/gallery-pictures/IMG_3543.jpg",
+      image123,
     description: 'Container Haulage Freight',
   },
   {
     original:
-      "/src/img/gallery-pictures/IMG_3544.jpg",
+       image123,
     description: 'Aerial Beach View',
   },
   {
@@ -74,7 +74,7 @@ const images = [
     },
   {
     original:
-      'img/gallery-pictures/IMG_3553.jpg',
+      image123,
     description: 'Lighthouse Coast Sea',
   },
 ];
@@ -84,7 +84,7 @@ const galleryContainer = document.querySelector('.gallery');
 const galleryItemsHTML = images.map(({ original, description }) => {
   return `
     <li class="gallery-item">
-	<a class="gallery-link" href=${original}>
+	<a class="gallery-link" data-fancybox="gallery" href=${original}>
 		<img 
 			class="gallery-image" 
 			src=${original} 
@@ -97,7 +97,7 @@ const galleryItemsHTML = images.map(({ original, description }) => {
 
 galleryContainer.innerHTML = galleryItemsHTML;
 
-Fancybox.bind("[data-fancybox]", {
+Fancybox.bind(".gallery a", {
         loop: true,
         animationEffect: "fade",
         hideScrollbar: false,
