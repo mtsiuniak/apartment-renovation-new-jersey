@@ -3,7 +3,7 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
-import image123 from "../img/large-pictures/1.jpg"
+import image123 from "../img/gallery-pictures/IMG_3542.jpg"
 
 
 
@@ -34,42 +34,42 @@ const images = [
   },
   {
     original:
-      "../img/gallery-pictures/IMG_3545.jpg",
+      image123,
     description: 'Flower Blooms',
   },
   {
     original:
-      'img/gallery-pictures/IMG_3546.jpg',
+      image123,
     description: 'Alpine Mountains',
   },
   {
     original:
-     'img/gallery-pictures/IMG_3547.jpg',
+     image123,
     description: 'Mountain Lake Sailing',
   },
   {
     original:
-      'img/gallery-pictures/IMG_3548.jpg',
+      image123,
     description: 'Alpine Spring Meadows',
   },
   {
     original:
-      'img/gallery-pictures/IMG_3549.jpg',
+      image123,
     description: 'Nature Landscape',
   },
   {
     original:
-      'img/gallery-pictures/IMG_3550.jpg',
+      image123,
     description: 'Lighthouse Coast Sea',
     },
   {
     original:
-      'img/gallery-pictures/IMG_3551.jpg',
+      image123,
     description: 'Lighthouse Coast Sea',
     },
   {
     original:
-      'img/gallery-pictures/IMG_3552.jpg',
+      image123,
     description: 'Lighthouse Coast Sea',
     },
   {
@@ -97,7 +97,7 @@ const galleryItemsHTML = images.map(({ original, description }) => {
 
 galleryContainer.innerHTML = galleryItemsHTML;
 
-Fancybox.bind(".gallery a", {
+Fancybox.bind("[data-fancybox]", {
         loop: true,
         animationEffect: "fade",
         hideScrollbar: false,
