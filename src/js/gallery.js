@@ -1,5 +1,10 @@
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
+ import SimpleLightbox from "simplelightbox";
+        import "simplelightbox/dist/simple-lightbox.min.css";
+
+        let gallery = new SimpleLightbox('.gallery-item a', {
+            captionsData: 'alt',
+            captionDelay: 250
+        });
 
 // const images = [
 //   {
@@ -82,7 +87,7 @@ import "simplelightbox/dist/simple-lightbox.min.css";
 
 // galleryContainer.innerHTML = galleryItemsHTML;
 
-let gallery = new SimpleLightbox('.gallery-item a', {
-  captionsData: 'alt',
-  captionDelay: 250
-});
+// let gallery = new SimpleLightbox('.gallery-item a', {
+//   captionsData: 'alt',
+//   captionDelay: 250
+// });
