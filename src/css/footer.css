@@ -18,7 +18,7 @@
   left: 0;
   width: 100%;
   height: 100%;
-  background-image: url('/src/img/gallery-pictures/IMG_3553.jpg');
+  /* background-image: url('/src/img/gallery-pictures/IMG_3553.jpg'); */
   /* Замініть 'your-image.jpg' шляхом до вашого фонового зображення */
   background-size: cover;
   /* Розмір фонового зображення */

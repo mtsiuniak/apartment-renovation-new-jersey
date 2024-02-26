@@ -1,10 +1,28 @@
- import SimpleLightbox from "simplelightbox";
-        import "simplelightbox/dist/simple-lightbox.min.css";
+import SimpleLightbox from "simplelightbox";
+import "simplelightbox/dist/simple-lightbox.min.css";
+import { Fancybox } from "@fancyapps/ui";
+import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
-        let gallery = new SimpleLightbox('.gallery-item a', {
-            captionsData: 'alt',
-            captionDelay: 250
-        });
+        // let gallery = new SimpleLightbox('.gallery-item a', {
+        //     captionsData: 'alt',
+        //     captionDelay: 250
+        // });
+
+
+
+
+    Fancybox.bind("[data-fancybox]", {
+        loop: true,
+        animationEffect: "fade",
+        hideScrollbar: false,
+        Carousel: {
+            transition: "slide",
+        },
+        caption: function (fancybox, slide) {
+            return slide.thumbEl?.alt || "";
+        },
+    }
+    )
 
 // const images = [
 //   {
