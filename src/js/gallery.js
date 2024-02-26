@@ -1,80 +1,102 @@
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
-import image123 from "../img/gallery-pictures/IMG_3542.jpg"
+import image3542 from "../img/gallery-pictures/IMG_3542.jpg";
+import image3543 from "../img/gallery-pictures/IMG_3543.jpg";
+import image3544 from "../img/gallery-pictures/IMG_3544.jpg";
+import image3545 from "../img/gallery-pictures/IMG_3545.jpg";
+import image3546 from "../img/gallery-pictures/IMG_3546.jpg";
+import image3547 from "../img/gallery-pictures/IMG_3547.jpg";
+import image3548 from "../img/gallery-pictures/IMG_3548.jpg";
+import image3549 from "../img/gallery-pictures/IMG_3549.jpg";
+import image3550 from "../img/gallery-pictures/IMG_3550.jpg";
+import image3551 from "../img/gallery-pictures/IMG_3551.jpg";
+import image3552 from "../img/gallery-pictures/IMG_3552.jpg";
+import image3553 from "../img/gallery-pictures/IMG_3553.jpg";
+import image3554 from "../img/gallery-pictures/IMG_3554.jpg";
+import image3555 from "../img/gallery-pictures/IMG_3555.jpg";
+import image3556 from "../img/gallery-pictures/IMG_3556.jpg";
+import image3557 from "../img/gallery-pictures/IMG_3557.jpg";
 
-
-
-        // let gallery = new SimpleLightbox('.gallery-item a', {
-        //     captionsData: 'alt',
-        //     captionDelay: 250
-        // });
-
-
-
-
-    
 const images = [
   {
     original:
-      image123,
+      image3542,
     description: 'Hokkaido Flower',
   },
   {
     original:
-      image123,
+      image3543,
     description: 'Container Haulage Freight',
   },
   {
     original:
-       image123,
+       image3544,
     description: 'Aerial Beach View',
   },
   {
     original:
-      image123,
+      image3545,
     description: 'Flower Blooms',
   },
   {
     original:
-      image123,
+      image3546,
     description: 'Alpine Mountains',
   },
   {
     original:
-     image123,
+     image3547,
     description: 'Mountain Lake Sailing',
   },
   {
     original:
-      image123,
+      image3548,
     description: 'Alpine Spring Meadows',
   },
   {
     original:
-      image123,
+      image3549,
     description: 'Nature Landscape',
   },
   {
     original:
-      image123,
+      image3550,
     description: 'Lighthouse Coast Sea',
     },
   {
     original:
-      image123,
+      image3551,
     description: 'Lighthouse Coast Sea',
     },
   {
     original:
-      image123,
+      image3552,
     description: 'Lighthouse Coast Sea',
     },
   {
     original:
-      image123,
+      image3553,
+    description: 'Lighthouse Coast Sea',
+  },
+  {
+    original:
+      image3554,
+    description: 'Lighthouse Coast Sea',
+  },
+  {
+    original:
+      image3555,
+    description: 'Lighthouse Coast Sea',
+  },
+  {
+    original:
+      image3556,
+    description: 'Lighthouse Coast Sea',
+  },
+  {
+    original:
+      image3557,
     description: 'Lighthouse Coast Sea',
   },
 ];
@@ -110,8 +132,3 @@ Fancybox.bind("[data-fancybox]", {
     }
     )
 
-
-// let gallery = new SimpleLightbox('.gallery-item a', {
-//   captionsData: 'alt',
-//   captionDelay: 250
-// });

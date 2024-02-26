@@ -1,7 +1,11 @@
 
 /*  ------ Gallery styles ------- */
-.container {
+
+body {
     background-color: #050217;
+}
+
+.container {
     padding-left: 16px;
     padding-right: 16px;
 }
@@ -11,11 +15,6 @@
     display: inline-block;
     margin: 20px;
 }
-.simple-lightbox {
-    background-color: #7d743282;
-    /* Чорний фон */
-}
-
 
 .gallery {
     display: flex;
