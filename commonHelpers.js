@@ -1,2 +1,12 @@
-import"./assets/modulepreload-polyfill-3cfb730f.js";import{C as t}from"./assets/vendor-fab6ff31.js";t.bind("[data-fancybox]",{loop:!0,animationEffect:"fade",hideScrollbar:!1,Carousel:{transition:"slide"},caption:function(n,o){var a;return((a=o.thumbEl)==null?void 0:a.alt)||""}});
+import"./assets/modulepreload-polyfill-3cfb730f.js";import{C as a}from"./assets/vendor-fab6ff31.js";const l="/apartment-renovation-new-jersey/assets/1-fe490b8e.jpg",o=[{original:l,description:"Hokkaido Flower"},{original:"./img/gallery-pictures/IMG_3543.jpg",description:"Container Haulage Freight"},{original:"/src/img/gallery-pictures/IMG_3544.jpg",description:"Aerial Beach View"},{original:"../img/gallery-pictures/IMG_3545.jpg",description:"Flower Blooms"},{original:"img/gallery-pictures/IMG_3546.jpg",description:"Alpine Mountains"},{original:"img/gallery-pictures/IMG_3547.jpg",description:"Mountain Lake Sailing"},{original:"img/gallery-pictures/IMG_3548.jpg",description:"Alpine Spring Meadows"},{original:"img/gallery-pictures/IMG_3549.jpg",description:"Nature Landscape"},{original:"img/gallery-pictures/IMG_3550.jpg",description:"Lighthouse Coast Sea"},{original:"img/gallery-pictures/IMG_3551.jpg",description:"Lighthouse Coast Sea"},{original:"img/gallery-pictures/IMG_3552.jpg",description:"Lighthouse Coast Sea"},{original:"img/gallery-pictures/IMG_3553.jpg",description:"Lighthouse Coast Sea"}],t=document.querySelector(".gallery"),g=o.map(({original:i,description:e})=>`
+    <li class="gallery-item">
+	<a class="gallery-link" href=${i}>
+		<img 
+			class="gallery-image" 
+			src=${i} 
+			alt=${e}
+			/>
+	</a>
+    </li>
+  `).join("");t.innerHTML=g;a.bind("[data-fancybox]",{loop:!0,animationEffect:"fade",hideScrollbar:!1,Carousel:{transition:"slide"},caption:function(i,e){var r;return((r=e.thumbEl)==null?void 0:r.alt)||""}});
 //# sourceMappingURL=commonHelpers.js.map
