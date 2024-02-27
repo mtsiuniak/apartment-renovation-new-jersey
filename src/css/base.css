@@ -12,11 +12,6 @@ body {
 
 }
 
-
-.accent-color {
-    color: #ECD979;
-}
-
 /* 250ms linear */
 
 .container {
@@ -42,17 +37,12 @@ body {
 
 @media screen and (min-width: 1280px) {
     .container {
-        width: 1112px;
+        width: 1136px;
         padding-left: 16px;
         padding-right: 16px;
     }
 }
 
-@media screen and (min-width: 1440px) {
-    .container {
-        width: 1272px;
-    }
-}
 
 .visually-hidden {
     position: absolute;

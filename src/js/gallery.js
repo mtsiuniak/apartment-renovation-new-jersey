@@ -101,23 +101,27 @@ const images = [
   },
 ];
 
-const galleryContainer = document.querySelector('.gallery');
+const galleryContainer = document.querySelector('div .gallery');
 
-const galleryItemsHTML = images.map(({ original, description }) => {
+const galleryItemsHTML = images.map(({ original }) => {
   return `
     <li class="gallery-item">
 	<a class="gallery-link" data-fancybox="gallery" href=${original}>
 		<img 
 			class="gallery-image" 
 			src=${original} 
-			alt=${description}
+			alt=""
 			/>
 	</a>
     </li>
   `;
 }).join('');
+try {
+  galleryContainer.insertAdjacentHTML("beforeend", galleryItemsHTML);
+} catch {
+console.log("")
+}
 
-galleryContainer.innerHTML = galleryItemsHTML;
 
 Fancybox.bind("[data-fancybox]", {
         loop: true,
@@ -130,5 +134,6 @@ Fancybox.bind("[data-fancybox]", {
             return slide.thumbEl?.alt || "";
         },
     }
-    )
+)
+    
 

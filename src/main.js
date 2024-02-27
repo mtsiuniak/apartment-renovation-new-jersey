@@ -1,5 +1,4 @@
 
-
 const buttonopen = document.querySelector('.mobile-open-btn'); 
 const menu = document.querySelector('.mobile-menu'); 
 const buttonclose = document.querySelector('.button-close');
@@ -73,6 +72,6 @@ for (let smoothLink of smoothLinks) {
     });
 };
 
-// ---- gallery js -----
+
 
 

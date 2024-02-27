@@ -5,7 +5,6 @@
     gap: 50px;
     justify-content: center;
     align-items: center;
-    
 }
 .about-us-bg-image {
     padding-top: 40px;
@@ -63,6 +62,7 @@
 }
 
 @media screen and (min-width:1280px) {
+    
     .about-us-bg-image {
             padding-top: 75px;
         }
@@ -70,6 +70,7 @@
     .about-us {
         flex-direction: row;
         gap: 50px;
+        align-items: flex-start;
     }
 
     .wrapper-text {
@@ -78,19 +79,3 @@
 
 }
 
-@media screen and (min-width:1440px) {
-    .about-us-bg-image {
-            padding-top: 75px;
-        }
-
-    .wrapper-text {
-        min-width: 481px;
-    }
-
-}
-
-
-
-
-
-/*section-about-us*/

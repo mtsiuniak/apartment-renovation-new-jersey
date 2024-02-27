@@ -30,6 +30,16 @@ body {
     padding: 0;
 }
 
+.desc-gallery {
+    color: #f3f3f3;
+    font-size: 32px;
+}
+
+.back-to-main-link {
+    color: #f3f3f3;
+    font-size: 32px;
+}
+
 img {
     display: block;
     height: auto;
