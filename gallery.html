@@ -6,91 +6,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery</title>
     
+    
   <script type="module" crossorigin src="/apartment-renovation-new-jersey/commonHelpers.js"></script>
-  <link rel="modulepreload" crossorigin href="/apartment-renovation-new-jersey/assets/modulepreload-polyfill-3cfb730f.js">
+  <link rel="modulepreload" crossorigin href="/apartment-renovation-new-jersey/assets/styles-e37aed8e.js">
   <link rel="modulepreload" crossorigin href="/apartment-renovation-new-jersey/assets/vendor-1e6f2856.js">
+  <link rel="stylesheet" href="/apartment-renovation-new-jersey/assets/styles-53594449.css">
   <link rel="stylesheet" href="/apartment-renovation-new-jersey/assets/vendor-0156f648.css">
-  <link rel="stylesheet" href="/apartment-renovation-new-jersey/assets/gallery-dae606fb.css">
+  <link rel="stylesheet" href="/apartment-renovation-new-jersey/assets/gallery-556e083b.css">
 </head>
 
 <body>
-    <div class="container">
+    <header class="header-page">
+    <div class="container header-container">
+        <div class="header-left-part">
+            <nav class="navigation">
+                <a class="logo" href="./index.html">
+                    <svg class="icon icon-paint" width="44" height="44">
+                        <use xlink:href="/apartment-renovation-new-jersey/assets/icons-622b7d3b.svg#icon-paint"></use>
+                    </svg>
+                </a>
+
+                <ul class="navigation-menu">
+                    <li class="navigation-item">
+                        <a class="navigation-link smooth-scroll" href="#about-us">About us</a>
+                    </li>
+                    <li class="navigation-item smooth-scroll">
+                        <a class="navigation-link smooth-scroll" href="#order-link">Get information</a>
+                    </li>
+
+                </ul>
+            </nav>
+
+        </div>
+
+
+        <div class="header-right-part">
+
+            <address class="address-info">
+                <a class="contact-information phone-number" href="tel:+16316336504">+1(631)-633-6504</a>
+                <a class="contact-information email-address"
+                    href="mailto:grandeurhomeimprovements@gmail.com">grandeurhomeimprovements@gmail.com</a>
+            </address>
+
+            <ul class="social-link-list">
+                <li class="social-list-item">
+                    <a class="header-link" href="https://www.facebook.com/goITclub/" target="_blank">
+                        <svg class="header-icons" width="28" height="28">
+                            <use href="/apartment-renovation-new-jersey/assets/icons-622b7d3b.svg#icon-facebook"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="header-link" href="https://www.instagram.com/goitclub/" target="_blank">
+                        <svg class="header-icons" width="28" height="28">
+                            <use href="/apartment-renovation-new-jersey/assets/icons-622b7d3b.svg#icon-instagram"></use>
+                        </svg>
+                    </a>
+                </li>
+                <li class="social-list-item">
+                    <a class="header-link" href="https://www.youtube.com/c/GoIT" target="_blank">
+                        <svg class="header-icons" width="28" height="28">
+                            <use href="/apartment-renovation-new-jersey/assets/icons-622b7d3b.svg#icon-you-tube"></use>
+                        </svg>
+                    </a>
+                </li>
+            </ul>
+
+            <button class="mobile-open-btn" type="button">
+                <svg class="mobile-open-btn-icon" width="44" height="30">
+                    <use href="/apartment-renovation-new-jersey/assets/icons-622b7d3b.svg#icon-burger"></use>
+                </svg>
+            </button>
+
+        </div>
+
+
+    </div>
+</header>
+    <div class="gallery-container">
         <a class="back-to-main-link" href="./index.html">Go back</a>
-        <ul class="gallery">
-
-            <!-- <li class="gallery-item">
-                <a class="gallery-link" data-fancybox="gallery"
-                    href="/apartment-renovation-new-jersey/assets/IMG_3542-3179e25a.jpg">
-                    <img class="gallery-image" src="./img/gallery-pictures/IMG_3542.jpg" alt="" />
-                </a>
-            </li>
-
-            <li class="gallery-item">
-                <a class="gallery-link" data-fancybox="gallery"
-                    href="/apartment-renovation-new-jersey/assets/IMG_3543-030f8f67.jpg">
-                    <img class="gallery-image" src="./img/gallery-pictures/IMG_3543.jpg" alt="" />
-                </a>
-            </li>
-            <li class="gallery-item">
-                <a class="gallery-link" data-fancybox="gallery"
-                    href="/apartment-renovation-new-jersey/assets/IMG_3544-ef55b624.jpg">
-                    <img class="gallery-image" src="./img/gallery-pictures/IMG_3544.jpg" alt="" />
-                </a>
-            </li>
-            <li class="gallery-item">
-                <a class="gallery-link" data-fancybox="gallery"
-                    href="/apartment-renovation-new-jersey/assets/IMG_3545-50475299.jpg">
-                    <img class="gallery-image" src="./img/gallery-pictures/IMG_3545.jpg" alt="" />
-                </a>
-            </li>
-            <li class="gallery-item">
-                <a class="gallery-link" data-fancybox="gallery"
-                    href="/apartment-renovation-new-jersey/assets/IMG_3546-1f42defa.jpg">
-                    <img class="gallery-image" src="./img/gallery-pictures/IMG_3546.jpg" alt="" />
-                </a>
-            </li>
-            <li class="gallery-item">
-                <a class="gallery-link" data-fancybox="gallery"
-                    href="/apartment-renovation-new-jersey/assets/IMG_3546-1f42defa.jpg">
-                    <img class="gallery-image" src="./img/gallery-pictures/IMG_3547.jpg" alt="" />
-                </a>
-            </li>
-            <li class="gallery-item">
-                <a class="gallery-link" data-fancybox="gallery"
-                    href="/apartment-renovation-new-jersey/assets/IMG_3548-e0db446d.jpg">
-                    <img class="gallery-image" src="./img/gallery-pictures/IMG_3548.jpg" alt="" />
-                </a>
-            </li>
-            <li class="gallery-item">
-                <a class="gallery-link" data-fancybox="gallery"
-                    href="/apartment-renovation-new-jersey/assets/IMG_3549-7a70edfe.jpg">
-                    <img class="gallery-image" src="./img/gallery-pictures/IMG_3549.jpg" alt="" />
-                </a>
-            </li>
-            <li class="gallery-item">
-                <a class="gallery-link" data-fancybox="gallery"
-                    href="/apartment-renovation-new-jersey/assets/IMG_3550-3cb682f2.jpg">
-                    <img class="gallery-image" src="./img/gallery-pictures/IMG_3550.jpg" alt="" />
-                </a>
-            </li>
-            <li class="gallery-item">
-                <a class="gallery-link" data-fancybox="gallery"
-                    href="/apartment-renovation-new-jersey/assets/IMG_3551-5443b2c3.jpg">
-                    <img class="gallery-image" src="./img/gallery-pictures/IMG_3551.jpg" alt="" />
-                </a>
-            </li>
-            <li class="gallery-item">
-                <a class="gallery-link" data-fancybox="gallery"
-                    href="/apartment-renovation-new-jersey/assets/IMG_3552-8dc43dbc.jpg">
-                    <img class="gallery-image" src="./img/gallery-pictures/IMG_3552.jpg" alt="" />
-                </a>
-            </li>
-            <li class="gallery-item">
-                <a class="gallery-link" data-fancybox="gallery"
-                    href="/apartment-renovation-new-jersey/assets/IMG_3553-a48d4f17.jpg">
-                    <img class="gallery-image" src="./img/gallery-pictures/IMG_3553.jpg" alt="" />
-                </a>
-            </li> -->
+        <p class="desc-gallery">Click on pictures</p>
+        <ul class="photos-gallery">
         </ul>
     </div>
 

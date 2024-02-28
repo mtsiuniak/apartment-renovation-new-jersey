@@ -14,6 +14,9 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bree+Serif&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
   <!-- modern-normalize -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/modern-normalize@2.0.0/modern-normalize.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
@@ -22,8 +25,8 @@
   <!-- css styles -->
   
   <script type="module" crossorigin src="/apartment-renovation-new-jersey/commonHelpers2.js"></script>
-  <link rel="modulepreload" crossorigin href="/apartment-renovation-new-jersey/assets/modulepreload-polyfill-3cfb730f.js">
-  <link rel="stylesheet" href="/apartment-renovation-new-jersey/assets/index-7b06aad9.css">
+  <link rel="modulepreload" crossorigin href="/apartment-renovation-new-jersey/assets/styles-e37aed8e.js">
+  <link rel="stylesheet" href="/apartment-renovation-new-jersey/assets/styles-53594449.css">
 </head>
 
 <body>
@@ -55,8 +58,8 @@
         <div class="header-right-part">
 
             <address class="address-info">
-                <a class="contact-information" href="tel:+16316336504">+1(631)-633-6504</a>
-                <a class="contact-information"
+                <a class="contact-information phone-number" href="tel:+16316336504">+1(631)-633-6504</a>
+                <a class="contact-information email-address"
                     href="mailto:grandeurhomeimprovements@gmail.com">grandeurhomeimprovements@gmail.com</a>
             </address>
 
@@ -102,10 +105,12 @@
     <div class="container hero-container">
         <h1 class="main-title">Renovation New Jersey</h1>
         <h2 class="loading-title">0%</h2>
-        <a class="order-service-button" href="#order-link">Order Service</a>
+        <a class="order-service-button" href="#order-link">Get consultation</a>
     </div>
 
 </section>
+
+
     <section id="about-us" class="about-us-bg-image ">
   <div class="container about-us">
     <div class="wrapper-text">
@@ -137,41 +142,37 @@
         remodeling services in Jersey City.
       </p>
     </div>
-    <img class="img" src="./img/gallery-pictures/IMG_3879.jpg" alt="About Us" loading="lazy" width="650" />
+    <img class="img" src="../img/gallery-pictures/IMG_3557.jpg" alt="About Us" loading="lazy" width="650" />
 
   </div>
 </section>
 
-    <div class="exp-card">
-    <h2 class="exp-title">Our works</h2>
+    <section class="exp-card-section">
+    <h2 class="exp-title">Our portfolio</h2>
     <div class="container exp-container">
 
-        <div class="panel" style="background-image: url('/apartment-renovation-new-jersey/assets/IMG_3542-3179e25a.jpg')">
-            <h3>Renovation</h3>
-        </div>
-        <div class="panel" style="background-image: url('/apartment-renovation-new-jersey/assets/IMG_3543-030f8f67.jpg')">
-            <h3>Renovation</h3>
-        </div>
-        <div class="panel" style="background-image: url('/apartment-renovation-new-jersey/assets/IMG_3544-ef55b624.jpg')">
-            <h3>Renovation</h3>
-        </div>
         <div class="panel" style="background-image: url('/apartment-renovation-new-jersey/assets/IMG_3545-50475299.jpg')">
-            <h3>Renovation</h3>
         </div>
         <div class="panel" style="background-image: url('/apartment-renovation-new-jersey/assets/IMG_3546-1f42defa.jpg')">
-            <h3>Renovation</h3>
         </div>
-
+        <div class="panel" style="background-image: url('/apartment-renovation-new-jersey/assets/IMG_3544-ef55b624.jpg')">
+        </div>
+        <div class="panel" style="background-image: url('/apartment-renovation-new-jersey/assets/IMG_3542-3179e25a.jpg')">
+        </div>
+        <div class="panel" style="background-image: url('/apartment-renovation-new-jersey/assets/IMG_3543-030f8f67.jpg')">
+        </div>
     </div>
-    <a href="./gallery.html" class="more-photos" target="_self">*Click here to see more REAL photos</a>
-    <ul class="gallery"></ul>
+    <div data-fancybox="gallery"></div>
+    <div class="link-container-gallery">
+        <a href="./gallery.html" class="more-photos" target="_self">*Click here to see more REAL photos</a>
+    </div>
 
-</div>
-    <section class="order-section section-background" id="order-link">
+</section>
+    <section class="order-section section-background">
 
   <div class="order-section-wrapper container">
     <div class="order-form-box">
-      <h2 class="order-title" id="customer-order">
+      <h2 class="order-title" id="order-link">
         <span class="order-color-span">Your order</span> is our priority:
         Personalized approach and quality of service
       </h2>
@@ -205,7 +206,7 @@
 </section>
     <section class="faq-section">
     <div class="faq-container container">
-        <h1>Frequently Asked Questions</h1>
+        <h1 class="faq-title">Frequently Asked Questions</h1>
         <div class="faq-container">
             <div class="faq active">
                 <h3 class="faq-title">
@@ -306,6 +307,7 @@
 
 
   
+
 
 
 </body>
