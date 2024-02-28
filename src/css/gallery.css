@@ -16,7 +16,7 @@ body {
     margin: 20px;
 }
 
-.gallery {
+.photos-gallery {
     display: flex;
     justify-content: center;
     align-items: center;

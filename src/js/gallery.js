@@ -1,3 +1,4 @@
+
 import { Fancybox } from "@fancyapps/ui";
 import "@fancyapps/ui/dist/fancybox/fancybox.css";
 
@@ -101,7 +102,8 @@ const images = [
   },
 ];
 
-const galleryContainer = document.querySelector('div .gallery');
+
+const photosGallery = document.querySelector('.photos-gallery');
 
 const galleryItemsHTML = images.map(({ original }) => {
   return `
@@ -116,10 +118,11 @@ const galleryItemsHTML = images.map(({ original }) => {
     </li>
   `;
 }).join('');
+
 try {
-  galleryContainer.insertAdjacentHTML("beforeend", galleryItemsHTML);
+  photosGallery.insertAdjacentHTML("beforeend", galleryItemsHTML);
 } catch {
-console.log("")
+  console.log("not a problem")
 }
 
 
@@ -136,4 +139,3 @@ Fancybox.bind("[data-fancybox]", {
     }
 )
     
-
