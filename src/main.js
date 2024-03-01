@@ -72,6 +72,5 @@ for (let smoothLink of smoothLinks) {
     });
 };
 
-// ---- gallery js -----
 
 

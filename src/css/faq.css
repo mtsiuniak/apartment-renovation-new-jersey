@@ -65,7 +65,7 @@
 }
 
 .faq-toggle {
-    background-color: #e0d068;
+    background-color: #f3f3f3;
     border: 0;
     border-radius: 50%;
     cursor: pointer;
@@ -90,7 +90,7 @@
 }
 
 .faq.active .faq-toggle .fa-times {
-    color: #fff;
+    color: #f3f3f3;
     display: block;
 }
 
