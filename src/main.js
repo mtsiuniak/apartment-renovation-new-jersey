@@ -1,36 +1,5 @@
-const buttonopen = document.querySelector('.mobile-open-btn'); 
-const menu = document.querySelector('.mobile-menu'); 
-const buttonclose = document.querySelector('.button-close');
-const onToggleMenuHandlerOP = () => menu.classList.toggle('is-open'); 
-const onToggleMenuHandlerCL = () => menu.classList.remove('is-open');
-buttonopen.addEventListener('click', onToggleMenuHandlerOP); 
-buttonclose.addEventListener('click', onToggleMenuHandlerCL);
 
-const panels = document.querySelectorAll('.panel')
-
-panels.forEach(panel => {
-    panel.addEventListener('click', () => {
-        removeActiveClasses();
-        panel.classList.add('active');
-        menu.classList.remove('is-open'); // Закриваємо меню при натисканні на панель
-    });
-});
-
-function removeActiveClasses() {
-    panels.forEach(panel => {
-        panel.classList.remove('active');
-    });
-}
-
-const links = document.querySelectorAll('.mobile-menu a');
-
-links.forEach(link => {
-    link.addEventListener('click', () => {
-        menu.classList.remove('is-open'); // Закриваємо меню при натисканні на будь-яке посилання
-    });
-});
-
-// hero js
+// hero js start -----
 
 const loadText = document.querySelector('.loading-title')
 const bg = document.querySelector('.hero-section')
@@ -54,6 +23,7 @@ function blurring() {
 const scale = (num, in_min, in_max, out_min, out_max) => {
   return ((num - in_min) * (out_max - out_min)) / (in_max - in_min) + out_min
 }
+// hero js end-----
 
 // ------ scrol on hero section to order ----
 
@@ -70,7 +40,7 @@ for (let smoothLink of smoothLinks) {
     });
 };
 
-// scroll top button -----
+// scroll top button start-----
 
 const scrollToTopBtn = document.getElementById("scrollToTopBtn");
 
@@ -83,10 +53,9 @@ window.addEventListener("scroll", () => {
 });
 
 scrollToTopBtn.addEventListener("click", () => {
-    // Значення 'document.documentElement.scrollTop' вказує на прокрутку сторінки вгору
-    // 'behavior: "smooth"' забезпечує плавну анімацію прокрутки
     window.scrollTo({
         top: 0,
         behavior: "smooth"
     });
 });
+// scroll top button end-----

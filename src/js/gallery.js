@@ -138,4 +138,6 @@ Fancybox.bind("[data-fancybox]", {
         },
     }
 )
+
+
     

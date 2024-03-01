@@ -51,20 +51,18 @@ body {
     margin: -1px;
     border: 0;
     padding: 0;
-
     white-space: nowrap;
     clip-path: inset(100%);
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
-
 .scroll-to-top-btn {
     display: none;
     position: fixed;
     bottom: 36px;
     right: 36px;
-    width: 48px;
-    height: 48px;
+    width: 60px;
+    height: 60px;
     border: none;
     border-radius: 50%;
     cursor: pointer;
@@ -72,21 +70,18 @@ body {
     background-color: #7d7432;
     color: #f3f3f3;
     text-align: center;
-    /* Центруємо текст у кнопці */
-    line-height: 40px;
-    /* Центруємо іконку у кнопці */
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.scroll-to-top-btn svg {
+.arrow-up-icon {
+    font-size: 24px;
+}
+
+.scroll-to-top-btn svg:hover,
+.scroll-to-top-btn svg:focus {
     width: 20px;
     height: 20px;
     fill: currentColor;
-    /* За замовчуванням заповнюємо коліром тексту */
-}
-
-.scroll-to-top-btn svg:hover, .scroll-to-top-btn svg:focus {
-    width: 20px;
-    height: 20px;
-    fill: currentColor;
-    /* За замовчуванням заповнюємо коліром тексту */
 }
