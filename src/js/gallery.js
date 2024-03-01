@@ -102,7 +102,6 @@ const images = [
   },
 ];
 
-
 const photosGallery = document.querySelector('.photos-gallery');
 
 const galleryItemsHTML = images.map(({ original }) => {
