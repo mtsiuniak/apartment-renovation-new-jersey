@@ -57,3 +57,36 @@ body {
     clip: rect(0 0 0 0);
     overflow: hidden;
 }
+
+.scroll-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 36px;
+    right: 36px;
+    width: 48px;
+    height: 48px;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 9999;
+    background-color: #7d7432;
+    color: #f3f3f3;
+    text-align: center;
+    /* Центруємо текст у кнопці */
+    line-height: 40px;
+    /* Центруємо іконку у кнопці */
+}
+
+.scroll-to-top-btn svg {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    /* За замовчуванням заповнюємо коліром тексту */
+}
+
+.scroll-to-top-btn svg:hover, .scroll-to-top-btn svg:focus {
+    width: 20px;
+    height: 20px;
+    fill: currentColor;
+    /* За замовчуванням заповнюємо коліром тексту */
+}
