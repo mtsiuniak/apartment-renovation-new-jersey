@@ -52,7 +52,6 @@ body {
     padding: 0;
     white-space: nowrap;
     clip-path: inset(100%);
-    clip: rect(0 0 0 0);
     overflow: hidden;
 }
 .scroll-to-top-btn {
@@ -81,6 +80,5 @@ body {
 
 .scroll-to-top-btn svg:hover,
 .scroll-to-top-btn svg:focus {
-    scale: 1.2;
     color: #938107;
 }

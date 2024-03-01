@@ -56,7 +56,6 @@
 .contact-information:focus {
     color: #7d7432;
     border-color: #7d7432;
-    scale: 1.02;
 }
 .email-address {
     display: none;
@@ -87,7 +86,6 @@
 .header-link:focus,
 .header-link:hover {
     border-color: #7d7432;
-    scale: 1.02;
 }
 .icon-paint {
     fill: #f3ecdd;
@@ -95,7 +93,6 @@
 }
 
 .icon-paint:hover, .icon-paint:focus {
-    scale: 1.02;
     fill: #7d7432;
 }
 
