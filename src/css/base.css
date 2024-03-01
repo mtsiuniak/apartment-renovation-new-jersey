@@ -67,12 +67,13 @@ body {
     border-radius: 50%;
     cursor: pointer;
     z-index: 9999;
-    background-color: #7d7432;
-    color: #f3f3f3;
+    background-color: #f3f3f3;
+    color: #7d7432;
     text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: color 400ms linear;
 }
 
 .arrow-up-icon {
@@ -81,7 +82,6 @@ body {
 
 .scroll-to-top-btn svg:hover,
 .scroll-to-top-btn svg:focus {
-    width: 20px;
-    height: 20px;
-    fill: currentColor;
+    scale: 1.2;
+    color: #938107;
 }

@@ -6,7 +6,7 @@ const bg = document.querySelector('.hero-section')
 
 let load = 0
 
-let int = setInterval(blurring, 30)
+let int = setInterval(blurring, 20)
 
 function blurring() {
   load++
@@ -59,3 +59,20 @@ scrollToTopBtn.addEventListener("click", () => {
     });
 });
 // scroll top button end-----
+
+const faqItems = document.querySelectorAll('.faq');
+
+faqItems.forEach(item => {
+    const toggleButton = item.querySelector('.faq-toggle');
+    const faqText = item.querySelector('.faq-text');
+
+    toggleButton.addEventListener('click', () => {
+        if (item.classList.contains('active')) {
+            item.classList.remove('active');
+            faqText.style.display = 'none';
+        } else {
+            item.classList.add('active');
+            faqText.style.display = 'block';
+        }
+    });
+});
